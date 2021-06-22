@@ -1,0 +1,12 @@
+{
+  # from SpaceX GraphQL
+  launchesPast(limit: 5) {
+    mission_name
+  }
+
+  # from Countries GraphQL
+  countries {
+    name
+    capital
+  }
+}
